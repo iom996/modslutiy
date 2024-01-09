@@ -2,6 +2,8 @@ from hikkatl.types import Message
 from .. import loader
 import random
 
+# meta developer:@imloveonegirl
+
 
 @loader.tds
 class ruletkaModule(loader.Module):
