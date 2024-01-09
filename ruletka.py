@@ -20,6 +20,6 @@ class ruletkaMod(loader.Module):
         numo = random.randrange(1,6)
         num = utils.get_args_raw(message)
         if num == numo :
-            await utils.answer(message, self.strings("loose"))
+            await utils.edit(message, self.strings("loose"))
         else:
-            await utils.answer(message, self.strings("win"))
+            await utils.edit(message, self.strings("win"))

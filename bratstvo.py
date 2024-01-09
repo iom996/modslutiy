@@ -26,4 +26,4 @@ class BratstvoMod(loader.Module):
         time.sleep(5)
         await message.edit("ашибка братства не удалить") 
         time.sleep(2) 
-
+        await message.edit("ауф😈😈😈👆👆👆👊👊👊")
