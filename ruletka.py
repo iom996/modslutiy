@@ -16,7 +16,7 @@ class ruletkaModule(loader.Module):
         )
     async def rulcmd(self, message: Message):
         """any number 1-6"""
-        numo = random(random.randint(1,2,3,4,5,6))
+        numo = random.randrange(1,6)
         num = utils.get_args_raw(message)
         if num == numo :
             await utils.answer(message, self.strings("loose"))
