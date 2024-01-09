@@ -4,7 +4,7 @@ import random
 
 
 @loader.tds
-class MyModule(loader.Module):
+class ruletkaModule(loader.Module):
     """русская рулетка"""
 
     strings = {"name": "ruletka", "loose": f"<b>you loose!<b>", "win": f"<b>you won!<b>"}
