@@ -1,5 +1,4 @@
-from collections import UserList, UserString
-import logging
+
 import time
 
 from telethon.tl.functions.users import GetFullUserRequest

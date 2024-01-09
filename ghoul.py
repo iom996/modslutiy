@@ -16,7 +16,7 @@ class ghoulMod(loader.Module):
         i = 1000
         while i - 7:
             i<=0
-            await utils.message(message)
+            await message.edit(message)
 
 
 
