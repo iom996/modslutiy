@@ -8,9 +8,9 @@ class PmMod(loader.Module):
     """пишат то что нужно лс"""
 
     strings = {"name": "pm",
-                "ls": f"<b>please go to pm<b>",
-                "ls_ru": f"<b>пожалуйста напиши мне в лс<b>",
-                "ls_ukr": f"<b>будь ласка, напишіть мені у пс<b>",
+                "ls": f"<b>please, go to pm<b>",
+                "ls_ru": f"<b>пожалуйста, напиши мне в лс<b>",
+                "ls_ukr": f"<b>будь ласка, напишіть мені у пп<b>",
                 }
 
     async def pmcmd(self, message: Message) -> None:

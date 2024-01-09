@@ -9,8 +9,11 @@ import random
 class ruletkaMod(loader.Module):
     """русская рулетка"""
 
-    strings = {"name": "ruletka", "loose": f"<b>you loose!<b>", "win": f"<b>you won!<b>"}
-    strings_ru = {"loose": f"<b>вы проиграли!<b>", "win": f"<b>вы победили!<b>"}
+    strings = {"name": "ruletka",
+                "loose": f"<b>you loose!<b>",
+                "win": f"<b>you won!<b>"}
+    strings_ru = {"loose": f"<b>вы проиграли!<b>",
+                   "win": f"<b>вы победили!<b>"}
 
     async def rulcmd(self, message: Message):
         """any number 1-6"""
