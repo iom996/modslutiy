@@ -7,7 +7,7 @@ from telethon.tl.types import Message  # type: ignore
 class googleMod(loader.Module):
     """загугли..."""
 
-    strings = {"name": "gogl",
+    strings = {"name": "google",
                "noag": "no args"}
     strings_ru = {"noag": "нету запроса",}
 
