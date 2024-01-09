@@ -23,4 +23,7 @@ class BratstvoMod(loader.Module):
         while br <= 99 :
             await message.edit("удаление братства: " + str(br) + "%")
             br += 1
-        await message.edit("ашибка братства не удалить")       
+            time.sleep(5)
+        await message.edit("ашибка братства не удалить") 
+        time.sleep(2) 
+        
