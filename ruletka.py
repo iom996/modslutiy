@@ -1,5 +1,5 @@
-from hikkatl.types import Message
-from .. import loader
+from .. import loader, utils
+from telethon.tl.types import Message
 import random
 
 # meta developer:@imloveonegirl
