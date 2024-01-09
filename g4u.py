@@ -12,7 +12,7 @@ class googleMod(loader.Module):
     strings_ru = {"noag": "нету запроса",}
 
     async def goglcmd(self, message: Message) :
-        """gogl"""
+        """<args>"""
         args = utils.get_args_raw(message)
         if not args:
             await utils.answer(message, self.strings("no args"))
